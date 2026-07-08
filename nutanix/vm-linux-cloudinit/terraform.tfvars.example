@@ -1,0 +1,10 @@
+nutanix_username = "admin"
+nutanix_password = "alterar-senha"
+nutanix_endpoint = "192.168.1.100"
+
+cluster_uuid    = "00061d6e-15fe-089d-2b83-000c295a828f"
+subnet_uuid     = "eb2abab6-80f2-4e06-b94d-d0a2829711b4"
+disk_image_uuid = "3269153c-5444-4fb9-9dcb-fdc80c0191dc"
+
+vm_name        = "vm-teste-linux-tf"
+vm_description = "VM Linux criada via Terraform"

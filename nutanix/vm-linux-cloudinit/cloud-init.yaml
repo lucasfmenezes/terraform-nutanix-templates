@@ -1,0 +1,16 @@
+#cloud-config
+hostname: vm-teste-linux-tf
+users:
+  - name: devops
+    sudo: ALL=(ALL) NOPASSWD:ALL
+    shell: /bin/bash
+ssh_pwauth: true
+chpasswd:
+  list: |
+    devops:AlterarSenha123
+  expire: false
+package_update: true
+packages:
+  - vim
+  - curl
+  - wget

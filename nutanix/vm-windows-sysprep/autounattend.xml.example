@@ -1,0 +1,3 @@
+<!-- Modelo de autounattend.xml para estudos. Ajuste antes de usar em ambiente real. -->
+<unattend xmlns="urn:schemas-microsoft-com:unattend">
+</unattend>

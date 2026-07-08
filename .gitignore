@@ -1,0 +1,39 @@
+# Terraform
+.terraform/
+.terraform.lock.hcl
+terraform.tfstate
+terraform.tfstate.*
+*.tfstate
+*.tfstate.*
+
+# Variables
+terraform.tfvars
+*.auto.tfvars
+*.auto.tfvars.json
+
+# Plans
+*.tfplan
+plan.out
+
+# Crash logs
+crash.log
+crash.*.log
+
+# Sensitive files
+*.pem
+*.key
+*.pfx
+*.p12
+*.crt
+*.cer
+*.env
+.env
+.env.*
+
+# System
+.DS_Store
+Thumbs.db
+
+# Editors
+.vscode/
+.idea/
